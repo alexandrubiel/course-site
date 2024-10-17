@@ -3,29 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flowers Shop</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <header class="header">
-        <img src="" alt="" id="header-img">
+   
+</head>
+<body>
+   
+    <header id="header">
+        <div class="shop-flowers-logo">
+            <img id="logo" src="https://raw.githubusercontent.com/alexandrubiel/course-site/main/img/shop-flowers-logo.png" alt="" id="header-img">
+        </div>
+        
+
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="" class="nav-link">LOCATIONS</a></li>
+                <li><a href="" class="nav-link">FLORAL COLLECTIONS</a></li>
+                <li><a href="" class="nav-link">GIFT COLLECTIONS</a></li>
+                <li><a href="" class="nav-link">WEDDINGS & EVENTS</a></li>
+                <li><a href="" class="nav-link">ABOUT US</a></li>
+                <li><a href="" class="nav-link">CONTACT US</a></li> 
+            </ul>
+        </nav>
     </header>
 
-    <nav id="nav-bar">
-        <ul>
-            <li><a href="" class="nav-link">Link 1</a></li>
-            <li><a href="" class="nav-link">Link 2</a></li>
-            <li><a href="" class="nav-link">Link 3</a></li>
-        </ul>
-    </nav>
+<section>
+    <!-- Slider -->
 
-
-    <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4iisysmwB_k?si=gO2popNHb2FtyDNE&autoplay=1&mute=1">
-        </iframe>
-    </section>
-
-        
     
+    
+    <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/img_nature_wide.jpg" style="width:100%">
+          <div class="centered">
+            <h2 >JULY COLLECTION</h2>
+            <p >Discover our recommendations</p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/img_snow_wide.jpg" style="width:100%">
+          <div class="centered text">
+            <h2>WEDDING FLORAL ARRANGEMENTS</h2>
+            <p>Discover our arrangements designed for a dream wedding</p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/img_mountains_wide.jpg" style="width:100%">
+          <div class="centered">
+            <h2>HAPPY BIRTHDAY</h2>
+            <p>Discover our recommendations</p>
+          </div>
+        </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <!-- Slider ends here-->
+</section>
+    
+
+
+    <section class="video-section">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/4iisysmwB_k?si=gO2popNHb2FtyDNE&autoplay=1&mute=1">
+        </iframe>
+    </section> 
+
+    <!-- Grid products -->
+
+    <div class="container">
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <!-- Repeat the card five more times -->
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+            <img src="img/placeholder-image-300x375.jpg" alt="Denim Jeans">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+
+    <!-- Grid Products Ends here -->
+
+
+    <!-- Email Subscription -->
+
+    <form>
+      <label for="email"></label>
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <input type="submit" value="Subscribe">
+  </form>
+
+
+    <!-- Footer -->
+
+    <footer>
+      <div>
+        <ul class="">
+          <li class="footer"><a href=""></a>Privacy</li>
+          <li class="footer"><a href=""></a>Terms</li>
+          <li class="footer"><a href=""></a>About Us</li>
+          <li class="footer"><a href=""></a>Contact</li>
+        </ul>
+      </div>
+
+      <span class="text-center footer-copyright">Copyright ©2024 Flowers Shop</span>
+    </footer>
+        
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
 </body>
 </html>
